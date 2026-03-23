@@ -56,7 +56,7 @@ export default function Contact() {
       icon: Github,
       label: "GitHub",
       value: "github.com/ArushRai",
-      href: "https://github.com/ArushRai",
+      href: "https://github.com/arushrai007",
     },
     {
       icon: Linkedin,
