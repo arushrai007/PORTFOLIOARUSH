@@ -117,7 +117,7 @@ export default function Home() {
 
                 <div className="surface-panel relative rounded-[2rem] p-5 animate-float">
                   <div className="mb-4 flex items-center justify-between">
-                    <span className="theme-chip">Available for projects</span>
+                    <span className="theme-chip">Available for projects and Interships</span>
                     <span className="h-3 w-3 rounded-full bg-accent" />
                   </div>
                   <img
@@ -186,7 +186,7 @@ export default function Home() {
 
             <div className="stat-panel animate-fade-in" style={{ animationDelay: "300ms" }}>
               <p className="font-display text-4xl md:text-5xl font-bold mb-2 text-primary">
-                8+
+                10+
               </p>
               <p className="font-body text-sm text-muted-foreground">
                 Certifications
@@ -195,10 +195,19 @@ export default function Home() {
 
             <div className="stat-panel animate-fade-in" style={{ animationDelay: "400ms" }}>
               <p className="font-display text-4xl md:text-5xl font-bold mb-2 text-primary">
-                5
+                15+
               </p>
               <p className="font-body text-sm text-muted-foreground">
                 Technologies
+              </p>
+            </div>
+
+            <div className="stat-panel animate-fade-in" style={{ animationDelay: "300ms" }}>
+              <p className="font-display text-4xl md:text-5xl font-bold mb-2 text-primary">
+                100+
+              </p>
+              <p className="font-body text-sm text-muted-foreground">
+                Open Source Contributions
               </p>
             </div>
           </div>
