@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Download, Eye } from "lucide-react";
 
 export default function Home() {
-  const cvFileUrl = "/Arush-Rai-CV.pdf";
+  const cvFileUrl = "/arushcv(generaledit).pdf";
   const featuredTracks = [
     {
       title: "AI and Data Projects",
@@ -82,7 +82,7 @@ export default function Home() {
 
                   <a
                     href={cvFileUrl}
-                    download="Arush-Rai-CV.pdf"
+                    download="arushcv(generaledit).pdf"
                     className="inline-flex items-center justify-center gap-2 rounded-full font-body font-semibold text-base border border-border bg-card/80 text-foreground px-8 py-4 hover:border-primary/50 hover:text-primary transition-smooth"
                     title="Download CV"
                   >
